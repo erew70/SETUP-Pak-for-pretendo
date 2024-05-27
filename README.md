@@ -21,9 +21,9 @@ go into the emulation settings and select those files you dumped (lfcs_b/a, secu
 
 And in the main citra root folder, copy the aes_keys.txt into the sysdata folder then download the Home menu
 
-Go extract the load folder in the emu folder into the main citra root folder where all the other folders are
+Go extract the load folder into the main citra root folder where all the other folders are
 
-Go to emulation --> debugging --> lle modules then toggle the following: HTTP    NIM     SSL    FRD    BOSS    ACT 
+Go to emulation --> debugging --> lle modules then toggle the following: HTTP    NIM     SSL    FRD    BOSS    ACT (android is a little different you need to edit a specifc file i will upload a pre edited one some time)
 
 Now you can boot the home menu and launch nimbus and select pretendo and it should work (if it crashes then launch the home menu again and you will now be on pretendo)
 
