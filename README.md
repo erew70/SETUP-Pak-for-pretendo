@@ -27,13 +27,15 @@ Go to emulation --> debugging --> lle modules then toggle the following: HTTP   
 On Android you have to edit CITRA_FOLDER/config/config.ini
 where CITRA_FOLDER is the Citra user folder you have set and add the following in the last section (WebService):
 ```
-LLE\HTTP=true
-LLE\NIM=true
-LLE\SSL=true
-LLE\FRD=true
-LLE\BOSS=true
-LLE\ACT=true
+LLE\HTTP = true
+LLE\NIM = true
+LLE\SSL = true
+LLE\FRD = true
+LLE\BOSS = true
+LLE\ACT = true
 ```
+There is an example in the config.ini in this repository
+
 Now you can boot the home menu and launch nimbus and select pretendo and it should work (if it crashes then launch the home menu again and you will now be on pretendo)
 
 (To boot home menu: File --> Boot Home menu --> (select region here)
