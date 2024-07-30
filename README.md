@@ -24,6 +24,7 @@ And in the main citra root folder, copy the aes_keys.txt into the sysdata folder
 Go extract the load folder into the main citra root folder where all the other folders are
 
 Go to emulation --> debugging --> lle modules then toggle the following: HTTP    NIM     SSL    FRD    BOSS    ACT.
+
 On Android you have to edit CITRA_FOLDER/config/config.ini
 where CITRA_FOLDER is the Citra user folder you have set and add the following in the last section (WebService):
 ```
