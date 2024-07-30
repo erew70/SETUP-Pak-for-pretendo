@@ -23,8 +23,17 @@ And in the main citra root folder, copy the aes_keys.txt into the sysdata folder
 
 Go extract the load folder into the main citra root folder where all the other folders are
 
-Go to emulation --> debugging --> lle modules then toggle the following: HTTP    NIM     SSL    FRD    BOSS    ACT (android is a little different you need to edit a specifc file i will upload a pre edited one some time)
-
+Go to emulation --> debugging --> lle modules then toggle the following: HTTP    NIM     SSL    FRD    BOSS    ACT.
+On Android you have to edit CITRA_FOLDER/config/config.ini
+where CITRA_FOLDER is the Citra user folder you have set and add the following in the last section (WebService):
+```
+LLE\HTTP=true
+LLE\NIM=true
+LLE\SSL=true
+LLE\FRD=true
+LLE\BOSS=true
+LLE\ACT=true
+```
 Now you can boot the home menu and launch nimbus and select pretendo and it should work (if it crashes then launch the home menu again and you will now be on pretendo)
 
 (To boot home menu: File --> Boot Home menu --> (select region here)
