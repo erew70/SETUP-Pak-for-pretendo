@@ -1,6 +1,13 @@
 # NOTE:
 these files are no longer neeeded, if you continue to wish to use them it will work just fine but you can now use luma3ds patches in citra which will also work ([Source](https://github.com/PabloMK7/citra/commit/b1e5485058f2eb711afc9548c41ff19e0690e04f))
 
+
+
+
+
+
+
+
 # SETUP-Pak
 
 Setup Pak and installation guide for setting up Pretendo on Citra.
