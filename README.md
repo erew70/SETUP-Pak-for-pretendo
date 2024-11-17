@@ -1,6 +1,7 @@
 # NOTE:
 these files are no longer neeeded, if you continue to wish to use them it will work just fine but you can now use luma3ds patches in citra which will also work ([Source](https://github.com/PabloMK7/citra/commit/b1e5485058f2eb711afc9548c41ff19e0690e04f))
 
+Come see my [new status checker](https://erew70.github.io/pretendo-status-3ds/) with individual server support! (Still WIP) 
 
 Alternativley, see the [Citra guide i created for pretendos website](https://github.com/erew70/website/blob/dev/docs/en_US/install/citra.md)
 
